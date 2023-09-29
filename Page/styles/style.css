@@ -42,6 +42,11 @@ nav ul li{
     border-bottom-right-radius: 5px;
 }
 
+nav ul li:hover{
+    background-color: rgb(63, 0, 7);
+    cursor: pointer;
+}
+
 .container-complet{
     display: flex;
 }
@@ -97,4 +102,133 @@ nav ul li{
         top: 0;
     }
 
+}
+
+.container-section-two{
+    display: flex;
+}
+
+.circle-background-image{
+    background-image: url(/Page/img/Recurso\ 6.png);
+    width: 50%;
+    height: 670px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 75%;
+    object-fit: cover;
+}
+
+.container-section-two .paragraph{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.paragraph p:nth-child(1){
+    display: flex;
+    color: var(--text-color-primario);
+    width: 550px;
+    padding: 20px;
+    font-family: var(--text-font);
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 22px;
+    border-bottom: 3px solid white;
+}
+
+.paragraph p:nth-child(2){
+    display: flex;
+    color: var(--text-color-primario);
+    font-family: var(--text-font);
+    text-align: center;
+    font-size: 22px;
+    margin-top: 70px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.paragraph p:nth-child(3){
+    display: flex;
+    padding: 20px;
+    color: var(--text-color-primario);
+    font-family: var(--text-font);
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 450px;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.paragraph p:nth-child(5){
+    display: flex;
+    color: var(--text-color-primario);
+    font-family: var(--text-font);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.paragraph p:nth-child(6){
+    display: flex;
+    padding: 20px;
+    color: var(--text-color-primario);
+    font-family: var(--text-font);
+    text-align: justify;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.container-section-three{
+    display: flex;
+}
+
+.container-section-three-div{
+    display: flex;
+    background-image: url(/Page/img/Recurso\ 8.png);
+    width: 150%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: start;
+}
+
+.container-section-three p:nth-child(1){
+    display: flex;
+    color: var(--text-color-primario);
+    text-align: center;
+    font-family: var(--text-font);
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-right: 130px;
+}
+
+.container-section-three p:nth-child(2){
+    display: flex;
+    color: var(--text-color-primario);
+    text-align: center;
+    width: 80%;
+    height: 120px;
+    font-family: var(--text-font);
+    font-size: 24px;
+    margin-top: 300px;
+    margin-right: 80px;
+    padding: 30px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
 }
